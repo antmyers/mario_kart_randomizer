@@ -1,0 +1,36 @@
+#!/bin/bash
+# randomize
+
+usage() {
+  echo "$0 can have any of the following parameters separated by a space"
+  echo ""
+  echo "CHARACTERS: (type -c and then one of light/middle/heavy (if omitted, all will be used))"
+  echo ""
+  echo "VEHICLES:   (type -v and then one of bikes/karts (if omitted, all will be used))"
+  echo ""
+  echo "PLAYERS:   (type -n and then a number >= 1 (if omitted, 1 will be used))"
+  echo ""
+  echo "PLAYER_NAMES: (type -p, then single quotes, then each name separated by a space, then single quotes (if omitted, one player named Doug Dimmaclone will be used))"
+  echo ""
+  echo "FAST_MODE: (type -f (if omitted, the script will run its whole output))"
+  echo ""
+  echo "An example is: ./kart -c light -v bikes -n 2 -p 'Andrew Patrick' -f"
+  echo ""
+  echo "This will gives you the choice of light characters, only bikes, 2 players named Andrew and Patrick, and only the summary will be printed"
+}
+if [ $# -eq 0 ]; then
+  python3 randomize.py
+else
+  if [ $1 = "--help" ]; then
+    usage
+    exit 1
+  fi
+
+  pyString=""
+  for var in "$@"
+  do
+    pyString+=" $var"
+  done
+
+  python3 randomize.py "$pyString"
+fi
