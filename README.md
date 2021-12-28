@@ -16,7 +16,6 @@ Run the bash script with no arguments to see a sample ran of the randomizer!
 ./kart --help
 ```
 The above command will give you lots of information on the different flags you can define. I will also outline them below.\
-The bolded words are what you type immediately after each flag.
 
 ## Flags
 
@@ -72,7 +71,7 @@ Let's say I want to randomize for 4 people. I want us all to be on bikes, but I 
 ```
 The output would look like:
 
-![This is a alt text.](/images/sample_1.png "This is a sample image.")
+![A screenshot with full output.](/images/sample_1.png "This is a sample image.")
 
 Let's say I'm in a hurry. I'm randomizing for 2 people, I want all available characters and karts, and I don't want all the fancy schmancy ouput. I would use this command:
 
@@ -82,4 +81,7 @@ Let's say I'm in a hurry. I'm randomizing for 2 people, I want all available cha
 
 The output would look like:
 
-![This is a alt text.](/images/sample_2.png "This is a sample image.")
+![A screenshot with fast mode output.](/images/sample_2.png "This is a sample image.")
+
+## Final Notes
+That's about it from me! If you see any bugs, feel free to throw it in the Issues tab on Github. Happy randomizing!
