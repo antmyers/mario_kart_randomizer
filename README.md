@@ -18,6 +18,8 @@
   1. On Windows, hit Windows+R, type cmd and hit Enter
 1. Locate the directory where you saved the zip file
   1. In the command line, type ``` cd path_to_folder ```
+  1. Let's say I saved the zip file in my Documents folder. The folder after I double-clicked on the zip file should be called 'mario_kart_randomizer-main'
+  1. My command would look like: ``` cd Documents/mario_kart_randomizer-main ```
 1. You're all set up! You should now be able to run the below commands on your command line
 To use the randomizer, you can clone or download this repo. You'll be executing the bash script on the command line to run it.
 ```
