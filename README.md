@@ -7,6 +7,18 @@
 
 ## Tutorial
 
+### Quick Setup
+
+1. Click the green *Code* button above
+1. Click download zip
+  1. Save the zip file in a place you will remember
+  1. Open the zip file by double-clicking on it
+1. Open up the command line
+  1. On Mac, hit Command+Space and search for Terminal
+  1. On Windows, hit Windows+R, type cmd and hit Enter
+1. Locate the directory where you saved the zip file
+  1. In the command line, type ``` cd path_to_folder ```
+1. You're all set up! You should now be able to run the below commands on your command line
 To use the randomizer, you can clone or download this repo. You'll be executing the bash script on the command line to run it.
 ```
 ./kart

@@ -44,9 +44,7 @@ for player in players:
                                                    bounds)
     summary[player] = player + ": " + character_text + " -> " + vehicle_text
 
-if "-f" not in arg_index_dict:
-    print("Summary")
-else:
+if "-f" in arg_index_dict:
     print("FAST MODE")
 for player_info in summary:
     print(summary[player_info])
