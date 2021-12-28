@@ -11,11 +11,11 @@ To use the randomizer, you can clone or download this repo. You'll be executing 
 ```
 ./kart
 ```
-Run the bash script with no arguments to see a sample ran of the randomizer!
+Run the bash script with no arguments to see a sample run of the randomizer!
 ```
 ./kart --help
 ```
-The above command will give you lots of information on the different flags you can define. I will also outline them below.\
+The above command will give you lots of information on the different flags you can define. I will also outline them below.
 
 ## Flags
 
