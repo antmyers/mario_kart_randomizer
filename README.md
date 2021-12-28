@@ -10,17 +10,17 @@
 ### Quick Setup
 
 1. Click the green *Code* button above
-1. Click download zip
-  1. Save the zip file in a place you will remember
-  1. Open the zip file by double-clicking on it
-1. Open up the command line
-  1. On Mac, hit Command+Space and search for Terminal
-  1. On Windows, hit Windows+R, type cmd and hit Enter
-1. Locate the directory where you saved the zip file
-  1. In the command line, type ``` cd path_to_folder ```
-  1. Let's say I saved the zip file in my Documents folder. The folder after I double-clicked on the zip file should be called 'mario_kart_randomizer-main'
-  1. My command would look like: ``` cd Documents/mario_kart_randomizer-main ```
-1. You're all set up! You should now be able to run the below commands on your command line
+2. Click download zip
+  * Save the zip file in a place you will remember
+  * Open the zip file by double-clicking on it
+3. Open up the command line
+  * On Mac, hit Command+Space and search for Terminal
+  * On Windows, hit Windows+R, type cmd and hit Enter
+4. Locate the directory where you saved the zip file
+  * In the command line, type ``` cd path_to_folder ```
+  * Let's say I saved the zip file in my Documents folder. The folder after I double-clicked on the zip file should be called 'mario_kart_randomizer-main'
+  * My command would look like: ``` cd Documents/mario_kart_randomizer-main ```
+5. You're all set up! You should now be able to run the below commands on your command line
 To use the randomizer, you can clone or download this repo. You'll be executing the bash script on the command line to run it.
 ```
 ./kart
